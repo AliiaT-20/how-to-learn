@@ -168,7 +168,6 @@
   width: 250px;
   margin-top: 60px;
   color: #000;
-  margin-bottom: 60px;
 }
 
 .table__heading {
@@ -241,15 +240,17 @@
   align-items: center;
   overflow: hidden;
   position: relative;
-  z-index: -2;
+  z-index: 0;
 }
 
 .section-title_theme_dark {
   color: #f2f2f2;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
   color: #f2f2f2;
+  z-index: 2;
 }
 
 .table_theme_dark {
